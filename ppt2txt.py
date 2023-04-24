@@ -46,4 +46,5 @@ if __name__=="__main__":
             for aLine in aText:
                 aLine = aLine.strip()
                 if aLine:
+                    aLine = aLine.encode('utf-8', 'surrogatepass').decode('utf-8', 'ignore')
                     print(aLine)
