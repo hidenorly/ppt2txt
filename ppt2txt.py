@@ -1,5 +1,6 @@
-#!/usr/bin/python3
-
+#!/usr/bin/env python3
+# coding: utf-8
+#
 #   Copyright 2023 hidenorly
 #
 #   Licensed under the Apache License, Version 2.0 (the "License");
@@ -15,6 +16,7 @@
 #   limitations under the License.
 
 import argparse
+import collections.abc
 from pptx import Presentation
 import re
 
